@@ -200,19 +200,19 @@
             <section class="subscribe-us-area" id="contact">
                 <h1 class="text-uppercase contact-h1 title-h1">Get In Touch</h1><br><br>
              <div class="container contact-container">
-                <form method="POST" action="mailto:mandavadevendra4@gmail.com">
+                <form method="POST" data-netlify="true">
                     <div class="form-group"> 
                     <label for="name">First Name</label>
                       <input type="text" id="name" name="name" placeholder="Your name..">
                     </div>
                       <div class="form-group">
                   <label  class="form-label">Your Email: </label>
-                  <input type="email" class="form-control" name="email" placeholder="Your email..">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Your email..">
                 </div> 
                   <br>
                     <div class="form-group">
                   <label for="subject">Message</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  <textarea id="subject" name="subject" id="message" placeholder="Write something.." style="height:200px"></textarea>
                 </div>
                  <input type="submit" value="Submit">
                  </form>
